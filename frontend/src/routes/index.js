@@ -19,7 +19,7 @@ import ApiKey from "../pages/ApiKey/";
 import Tags from "../pages/Tags";
 import Integrations from "../pages/Integrations";
 import Conecteup from "../pages/Conecteup";
-
+import Disparo from "../pages/Disparo";
 import { AuthProvider } from "../context/Auth/AuthContext";
 import { WhatsAppsProvider } from "../context/WhatsApp/WhatsAppsContext";
 import Route from "./Route";

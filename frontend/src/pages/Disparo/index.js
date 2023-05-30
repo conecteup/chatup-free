@@ -28,7 +28,7 @@ const Disparo = () => {
   const classes = useStyles();
   //const googleUrl = "http://localhost:3000/";
   const DisparonSite = process.env.REACT_APP_DisparoSITEL_URL;
-  const [iframSrc ] = useState(DisparoSite);
+  const [iframSrc ] = useState(DisparonSite);
 
   useEffect(() => {
     const socket = openSocket(process.env.REACT_APP_BACKEND_URL);

@@ -399,7 +399,7 @@ const messages = {
           apititle: "API",
           apikey: "API Key",
           token: "Token",
-          Conecteup:"N8N"
+          Conecteup:"N8N",
           Disparo:"Disparo"
         },
         appBar: {
