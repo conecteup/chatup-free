@@ -47,6 +47,7 @@ const Routes = () => {
               <Route exact path="/Tags" component={Tags} isPrivate />
               <Route exact path="/Integrations" component={Integrations} isPrivate />
               <Route exact path="/Conecteup" component={Conecteup} isPrivate />
+              <Route exact path="/Disparo" component={Disparo} isPrivate />
             </LoggedInLayout>
           </WhatsAppsProvider>
         </Switch>

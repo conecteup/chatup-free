@@ -400,6 +400,7 @@ const messages = {
           apikey: "API Key",
           token: "Token",
           Conecteup:"N8N"
+          Disparo:"Disparo"
         },
         appBar: {
           message: {

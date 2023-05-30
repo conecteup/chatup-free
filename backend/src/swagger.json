@@ -4,13 +4,13 @@
         "title": "Documentação da API do Conecteup",
         "description": "Documentação da API para envio de mensagens e mídia.",
         "contact": {
-            "email": "robson.tenorio@gmail.com"
+            "email": "contato@conecteup.com"
         },
         "version": "1.0.0"
     },
     "servers": [
         {
-            "url": "https://apisac.pypress.com.br",
+            "url": "https://api.conecteup.net",
             "description": "API Conecteup"
         }
     ],

@@ -32,7 +32,7 @@ import { WhatsAppsContext } from "../context/WhatsApp/WhatsAppsContext";
 import { AuthContext } from "../context/Auth/AuthContext";
 import { Can } from "../components/Can";
 import ChatIcon from '@material-ui/icons/Chat';
-
+import SendIcon from '@material-ui/icons/Send';
 const useStyles = makeStyles(theme => ({
   icon: {
     color: theme.palette.secondary.main
@@ -159,6 +159,11 @@ const MainListItems = (props) => {
               to="/Conecteup"
               primary={i18n.t("mainDrawer.listItems.Conecteup")}
         icon={<ChatIcon />}
+            /> 
+            <ListItemLink
+              to="/Disparo"
+              primary={i18n.t("mainDrawer.listItems.Disparo")}
+        icon={<SendIcon />}
             /> 
             <ListItemLink
               to="/Integrations"
